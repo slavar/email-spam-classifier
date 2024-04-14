@@ -4,7 +4,7 @@ Email spam classifier, implemented as REST service. Uses pre-trained TF-IDF mode
 How to use it:
 If not installed, installe a pipenv by 'pip install pipenv'. 
 Unpack the learning set in the 'training_data' folder.
-Assuming you're in the project's root folder, run 'pipenv install' followed by 'ipenv shell' to prepare a running environment and set up dependencies. 
+Assuming you're in the project's root folder, run 'pipenv install' followed by 'pipenv shell' to prepare a running environment and set up dependencies. 
 Run 'python app/create_model.py'. It will run few minutes and will create and traain the TF-IDF model in the 'app' folder.
 Run './bootstrap.sh'
 You're ready to try the service
