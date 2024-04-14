@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 flask = "*"
 scikit-learn = "*"
+pypdf = "*"
+pandas = "*"
+nltk = "*"
 
 [dev-packages]
 
